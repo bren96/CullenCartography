@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link href="/Users/bcullen/Desktop/CullenCartography.com/fontawesome-free-5.7.1-web/css/all.css" rel = "stylesheet">
+	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
+	<style>
+
+		body {
+			margin: auto;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: hsl(38, 100%, 70%);
+			width: 85vw;
+			color: hsl(38,0%,40%);
+		}
+
+		#header {
+
+			background-image: url(contours.png);
+			padding: 100px;
+			text-align: center;
+			font-size: 18px;
+			color:White;
+		}
+
+		.headingbox {
+			display: block;
+			background-color: hsl(38, 100%, 70%);
+			width: 50%;
+			margin: auto;
+			padding: 10px;
+		}
+
+		#navbar {
+			overflow: hidden;
+			background-color: White;
+			min-width: inherit;
+			margin: auto;
+		}
+
+		#navtable {
+			font-size: 20px;
+			letter-spacing: 2px;
+			width: 85vw;
+			min-width: 400px;
+			margin: 0;
+			color: hsl(38, 100%, 60%);
+		}
+
+		#navtable a:hover {
+			background-color: hsl(38, 100%, 60%);
+			color: White;
+		}
+
+		#navtable a{
+			display: block;
+			text-decoration: none;
+			color: hsl(38, 100%, 60%);
+			padding: 0.5em;
+		}
+
+		.aboutinfo{
+			display: block;
+			font-size: 1.25em;
+			color: hsl(38,0%,40%);
+			text-align: center;
+			width: 75%;
+			margin: auto;
+			letter-spacing: 1.15px;
+		}
+
+		.aboutinfo img{
+			border-radius: 50%;
+			width: 90%;
+			margin: auto;
+		}
+
+		.contactinfo {
+			letter-spacing: 2px;
+			color: hsl(38, 100%, 60%);
+			font-size: 15px;
+			margin: auto;
+			text-align: center;
+		}
+
+		.contactinfo i {
+			color: hsl(38, 100%, 60%);
+			font-size: 1.5rem;
+		}
+
+		.contactinfo b {
+			display: inline-block ;
+			padding-top: 8px;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 8px;
+		}
+
+		.skillinfo{
+			display: block;
+			text-align: center;
+		}
+
+		.skillinfo ul {
+			display: inline-block;
+		}
+
+		.skillinfo li.header {
+			list-style-type: none;
+			font-size: 1.25em;
+		}
+
+		.content {
+			padding: 1em;
+			background-color: white;
+			font-size: 1em;
+			margin: auto;
+		}
+
+		.sticky {
+			position: fixed;
+			top: 0;
+		}
+
+		.sticky + .content {
+			padding-top: 4em;
+		}
+
+		h1 {
+			font-size: 40px;
+			font-weight: normal;
+			letter-spacing: 4px;
+		}
+
+		h3 {
+			font-size: 28px;
+			text-align: center;
+			color: hsl(38, 100%, 60%);
+			letter-spacing: 3px;
+		}
+
+		h4 {
+			font-size: 18px;
+			text-align: center;
+			letter-spacing: 3px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="header">
+		 <div class = "headingbox">
+			<h1>Brendan Cullen</h1>
+			<h4>GIS Specialist - Cartographer</h4>
+		 </div>
+	</div>
+	<div id="navbar">
+		<table id="navtable">
+			<tr>
+				<th><a href="#about">About</a></th>
+				<th><a href="#skills">Skills</a></th>
+				<th><a href="#portfolio">Map Portfolio</a></th>
+				<th><a href="#contact">Contact</a></th>
+			</tr>
+		</table>
+	</div>
+
+	<div class="content">
+
+		<div id="about">
+			<br>
+			</br>
+			<h3>About</h3>
+			<div class = "aboutinfo">
+				<p>
+						<img src="14716243_10208608894083870_2792922115887490404_n.jpg">
+				</p>
+				<p>
+				Recent graduate of Geography and Envrionmental Studies
+				from SUNY Geneseo. Avid interest in maps and mapping
+				technology. Strong research and professional background
+				in Geographic Information Systems, Cartography, and Sustainability.
+				</p>
+			</div>
+		</div>
+
+		<div id="skills">
+			<br>
+			</br>
+			<h3>Skills</h3>
+			<div class="skillinfo">
+				<p>
+					<ul>
+						<li class="header">GIS</li>
+					</ul>
+					<ul>
+						<li class="header">Data Visualization</li>
+					</ul>
+					<ul>
+						<li class="header">Writting & Communication</li>
+					</ul>
+				</p>
+			</div>
+
+
+		</div>
+
+		<div id="portfolio">
+			<br>
+			</br>
+			<h3>Map Portfolio</h3>
+
+		</div>
+
+		<div id="contact">
+			<br>
+			</br>
+			<h3 id="contact">Contact</h3>
+			<div class = "contactinfo">
+				<p>
+					<b>
+						<i class="fas fa-mobile-alt"></i>
+						(914) 841 8889
+					</b>
+					<b>
+						<i class="fas fa-envelope-open"></i>
+						brendancullen996@gmail.com
+					</b>
+					<b>
+						<i class="fab fa-linkedin-in"></i>
+					</b>
+				</p>
+			</div>
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {navbar.classList.add("sticky")}
+		else {navbar.classList.remove("sticky");}
+	}
+
+</script>
+
+</body>
+
+</html>
