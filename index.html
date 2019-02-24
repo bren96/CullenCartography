@@ -10,40 +10,48 @@
 		body {
 			margin: auto;
 			font-family: Arial, Helvetica, sans-serif;
-			background-color: hsl(38, 100%, 70%);
-			width: 85vw;
 			color: hsl(38,0%,40%);
 		}
 
-		#header {
+		.mainpage {
+			position: relative;
+			height: 100vh;
+			background-image: url(images/contours.png)
 
-			background-image: url(images/contours.png);
-			padding: 100px;
-			text-align: center;
-			font-size: 18px;
-			color:White;
 		}
 
-		.headingbox {
-			display: block;
+		#headingbox {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 75%;
 			background-color: hsl(38, 100%, 70%);
-			width: 50%;
+			text-align: center;
+			font-size: 3em;
+			color:White;
 			margin: auto;
-			padding: 10px;
 		}
+
+		#headingbox h1{
+			letter-spacing: 10px;
+		}
+		#headingbox h4{
+			letter-spacing: 5px;
+			font-size: 0.75em;
+		}
+
 
 		#navbar {
 			overflow: hidden;
-			background-color: White;
-			min-width: inherit;
 			margin: auto;
+			width: 100%;
 		}
 
 		#navtable {
-			font-size: 20px;
-			letter-spacing: 2px;
-			width: 85vw;
-			min-width: 400px;
+			font-size: 2em;
+			background-color: white;
+			width: 100%;
 			margin: 0;
 			color: hsl(38, 100%, 60%);
 		}
@@ -127,11 +135,6 @@
 			padding-top: 4em;
 		}
 
-		h1 {
-			font-size: 40px;
-			font-weight: normal;
-			letter-spacing: 4px;
-		}
 
 		h3 {
 			font-size: 28px;
@@ -140,31 +143,27 @@
 			letter-spacing: 3px;
 		}
 
-		h4 {
-			font-size: 18px;
-			text-align: center;
-			letter-spacing: 3px;
-		}
 	</style>
 
 </head>
 
 <body>
-	<div id="header">
-		 <div class = "headingbox">
+	<div class = "mainpage">
+
+		<div id = "headingbox">
 			<h1>Brendan Cullen</h1>
 			<h4>GIS Specialist - Cartographer</h4>
-		 </div>
-	</div>
-	<div id="navbar">
-		<table id="navtable">
-			<tr>
-				<th><a href="#about">About</a></th>
-				<th><a href="#skills">Skills</a></th>
-				<th><a href="#portfolio">Map Portfolio</a></th>
-				<th><a href="#contact">Contact</a></th>
-			</tr>
-		</table>
+		</div>
+		<div id="navbar">
+			<table id="navtable">
+				<tr>
+					<th><a href="#about">About</a></th>
+					<th><a href="#skills">Skills</a></th>
+					<th><a href="#portfolio">Map Portfolio</a></th>
+					<th><a href="#contact">Contact</a></th>
+					</tr>
+			</table>
+		</div>
 	</div>
 
 	<div class="content">
