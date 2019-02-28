@@ -1,0 +1,142 @@
+		body {
+			margin: auto;
+			font-family: Arial, Helvetica, sans-serif;
+			color: hsl(38,0%,40%);
+		}
+
+		.mainpage {
+			position: relative;
+			height: 100vh;
+			background: url("../images/contours.png")
+
+		}
+
+		#headingbox {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 75%;
+			background-color: hsl(38, 100%, 70%);
+			text-align: center;
+			font-size: 3em;
+			color:White;
+			margin: auto;
+		}
+
+		#headingbox h1{
+			letter-spacing: 10px;
+		}
+		#headingbox h4{
+			letter-spacing: 5px;
+			font-size: 0.75em;
+		}
+
+
+		#navbar {
+			overflow: hidden;
+			margin: auto;
+			width: 100%;
+		}
+
+		#navtable {
+			font-size: 2em;
+			background-color: white;
+			width: 100%;
+			margin: 0;
+			color: hsl(38, 100%, 60%);
+		}
+
+		#navtable a:hover {
+			background-color: hsl(38, 100%, 60%);
+			color: White;
+		}
+
+		#navtable a{
+			display: block;
+			text-decoration: none;
+			color: hsl(38, 100%, 60%);
+			padding: 0.5em;
+		}
+
+		.aboutinfo{
+			display: block;
+			font-size: 1.25em;
+			color: hsl(38,0%,40%);
+			text-align: center;
+			width: 75%;
+			margin: auto;
+			letter-spacing: 1.15px;
+		}
+
+		.aboutinfo img{
+			border-radius: 50%;
+			width: 90%;
+			margin: auto;
+		}
+
+		.contactinfo {
+			letter-spacing: 2px;
+			color: hsl(38, 100%, 60%);
+			font-size: 15px;
+			margin: auto;
+			text-align: center;
+		}
+
+		.contactinfo i {
+			color: hsl(38, 100%, 60%);
+			font-size: 1.5rem;
+		}
+
+		.contactinfo b {
+			display: inline-block ;
+			padding-top: 8px;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 8px;
+		}
+
+		.skillinfo{
+			display: block;
+			text-align: center;
+		}
+
+		.skillinfo ul {
+			display: inline-block;
+		}
+
+		.skillinfo li.header {
+			list-style-type: none;
+			font-size: 1.25em;
+		}
+
+		#mapid {
+			height: 75vh;
+		 	width: 75vw;
+			margin:auto;
+		}
+
+
+		.content {
+			padding: 1em;
+			background-color: white;
+			font-size: 1em;
+			margin: auto;
+		}
+
+		.sticky {
+			position: fixed;
+			top: 0;
+		}
+
+		.sticky + .content {
+			padding-top: 4em;
+		}
+
+
+		h3 {
+			font-size: 28px;
+			text-align: center;
+			color: hsl(38, 100%, 60%);
+			letter-spacing: 3px;
+		}
