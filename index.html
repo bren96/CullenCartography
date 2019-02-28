@@ -4,7 +4,14 @@
 
 <head>
 	<link href="/Users/bcullen/Desktop/CullenCartography.com/fontawesome-free-5.7.1-web/css/all.css" rel = "stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+	integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	crossorigin=""/>
 	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+	integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+	crossorigin=""></script>
+
 	<style>
 
 		body {
@@ -119,6 +126,13 @@
 			font-size: 1.25em;
 		}
 
+		#mapid {
+			height: 75vh;
+		 	width: 75vw;
+			margin:auto;
+		}
+
+
 		.content {
 			padding: 1em;
 			background-color: white;
@@ -210,7 +224,7 @@
 			<br>
 			</br>
 			<h3>Map Portfolio</h3>
-
+			<div id="mapid"></div>
 		</div>
 
 		<div id="contact">
@@ -234,15 +248,41 @@
 			</div>
 
 <script>
+
 	window.onscroll = function() {myFunction()};
 
 	var navbar = document.getElementById("navbar");
 	var sticky = navbar.offsetTop;
 
 	function myFunction() {
-		if (window.pageYOffset >= sticky) {navbar.classList.add("sticky")}
-		else {navbar.classList.remove("sticky");}
+			if (window.pageYOffset >= sticky) {navbar.classList.add("sticky")}
+			else {navbar.classList.remove("sticky");}
+		}
+	var mymap = L.map('mapid').setView([41.114454, -83.176252], 5);
+	var SenecaCountymarker = L.marker([41.114454, -83.176252]).addTo(mymap);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoiYnJlbjk2IiwiYSI6ImNqc2pkNGRvdTA0bm80OW9hOTIxNzB6NG0ifQ.tDovHyl1gFWQ96O3pok0Qg'
+	}).addTo(mymap);
+
+	SenecaCountymarker.bindPopup("<b>Seneca County Auditor</b><br>GIS Programmer/Analyst").openPopup();
+
+	var popup = L.popup();
+
+	function onMapClick(e) {
+	    popup
+	        .setLatLng(e.latlng)
+	        .setContent("You clicked the map at " + e.latlng.toString())
+	        .openOn(mymap);
 	}
+
+	mymap.on('click', onMapClick);
+
+
+
 
 </script>
 
