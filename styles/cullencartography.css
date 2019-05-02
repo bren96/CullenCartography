@@ -1,137 +1,117 @@
-		body {
-			margin: auto;
-			font-family: Arial, Helvetica, sans-serif;
-			color: hsl(38,0%,40%);
-		}
+body {
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: hsl(38,0%,40%);
+}
 
-		.mainpage {
-			position: relative;
-			height: 100vh;
-			background: url("../images/contours.png")
+.mainpage {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	background: url("../images/contours.png")
+}
 
-		}
-			#headingbox {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				width: 75%;
-				background-color: hsl(38, 100%, 70%);
-				text-align: center;
-				font-size: 3em;
-				color:White;
-				margin: auto;
-			}
-			#headingbox h1{
-				letter-spacing: 10px;
-				font-size: 1.25em;
-			}
-			#headingbox h4{
-				letter-spacing: 5px;
-				font-size: 0.4em;
-			}
-			#navbar {
-				overflow: hidden;
-				margin: auto;
-				width: 100vw;
-			}
-			#navtable {
-				font-size: 1.8em;
-				background-color: white;
-				width: 100vw;
-				margin: auto;
-				color: hsl(38, 100%, 60%);
-			}
-			#navtable a:hover {
-				background-color: hsl(38, 100%, 60%);
-				color: White;
-			}
-			#navtable a{
-				display: block;
-				text-decoration: none;
-				color: hsl(38, 100%, 60%);
-				padding-top: 0.5em;
-				padding-bottom: 0.5em;
-			}
-
-		.aboutinfo{
-			display: block;
-			font-size: 1.25em;
-			color: hsl(38,0%,40%);
+#headingbox {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 50%;
+			background-color: hsl(38, 100%, 70%);
 			text-align: center;
-			width: 75%;
+			font-size: 3em;
+			color:White;
 			margin: auto;
-			letter-spacing: 1.15px;
-		}
+}
 
-		.aboutinfo img{
-			border-radius: 50%;
-			width: 90%;
-			margin: auto;
-		}
+#headingbox h1{
+	letter-spacing: 12px;
+	font-size: 1.5em;
+}
 
-		.contactinfo {
-			letter-spacing: 2px;
-			color: hsl(38, 100%, 60%);
-			font-size: 15px;
-			margin: auto;
-			text-align: center;
-		}
+#headingbox h4{
+	letter-spacing: 5px;
+	font-size: 0.5em;
+}
 
-		.contactinfo i {
-			color: hsl(38, 100%, 60%);
-			font-size: 1.5rem;
-		}
+#navbar {
+	overflow: hidden;
+	margin: auto;
+	width: 100vw;
+}
 
-		.contactinfo b {
-			display: inline-block ;
-			padding-top: 8px;
-			padding-left: 15px;
-			padding-right: 15px;
-			padding-bottom: 8px;
-		}
+#navtable {
+	font-size: 2em;
+	background-color: white;
+	width: 100vw;
+	margin: auto;
+	color: hsl(38, 100%, 60%);
+}
 
-		.skillinfo{
-			display: block;
-			text-align: center;
-		}
+#navtable a:hover {
+	background-color: hsl(38, 100%, 60%);
+	color: White;
+}
 
-		.skillinfo ul {
-			display: inline-block;
-		}
+#navtable a{
+	display: block;
+	text-decoration: none;
+	color: hsl(38, 100%, 60%);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
 
-		.skillinfo li.header {
-			list-style-type: none;
-			font-size: 1.25em;
-		}
+.about{
+	display: block;
+	width:85vw;
+	height: 85vh;
+	margin: auto;
+	text-align: center;
+}
 
-		#mapid {
-			height: 75vh;
-		 	width: 75vw;
-			margin:auto;
-		}
+.skills{
+	display: block;
+	width: 85vw;
+	height: 85vh;
+	margin: auto;
+	text-align: center;
+}
+
+.contact{
+	width:85vw;
+	height: 85vh;
+	margin: auto;
+	text-align: center;
+}
+
+#mapid {
+	height: 75vh;
+	width: 75vw;
+	margin:auto;
+}
 
 
-		.content {
-			padding: 1em;
-			background-color: white;
-			font-size: 1em;
-			margin: auto;
-		}
+.content {
+	padding: 1em;
+	background-color: white;
+	font-size: 1em;
+	margin: auto;
+}
 
-		.sticky {
-			position: fixed;
-			top: 0;
-		}
+.sticky {
+	position: fixed;
+	top: 0;
+}
 
-		.sticky + .content {
-			padding-top: 4em;
-		}
+.sticky + .content {
+	padding-top: 4em;
+}
 
 
-		h3 {
-			font-size: 28px;
-			text-align: center;
-			color: hsl(38, 100%, 60%);
-			letter-spacing: 3px;
-		}
+h3 {
+	font-size: 28px;
+	text-align: center;
+	color: hsl(38, 100%, 60%);
+	letter-spacing: 3px;
+}
