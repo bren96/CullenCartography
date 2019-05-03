@@ -26,34 +26,29 @@
 </head>
 
 <body>
-	<div class = "mainpage">
+	<div id = "mainpage">
 
 		<div id = "headingbox">
 			<h1>Brendan Cullen</h1>
 			<h4>GIS Specialist - Cartographer</h4>
 		</div>
-		<div id="navbar">
-			<table id="navtable">
-				<tr>
-					<th><a href="#about">About</a></th>
-					<th><a href="#skills">Skills</a></th>
-					<th><a href="#webmap">Web Map</a></th>
-					<th><a href="#gallery">Gallery</a></th>
-					<th><a href="#contact">Contact</a></th>
-					</tr>
-			</table>
+		<div id ="navbar">
+				<a class="fas fa-home" href="#mainpage"></a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#experiencemap">Experience Map</a>
+				<a href="#projectgallery">Project Gallery</a>
+				<a href="#contact">Contact</a>
 		</div>
 	</div>
 
 	<div class="content">
 
-		<div id="about">
-			<br>
-			</br>
+		<div class="section" id="about">
 			<h3>About</h3>
-			<div class = "aboutinfo">
+			<div>
 				<p>
-						<img src="images/14716243_10208608894083870_2792922115887490404_n.jpg">
+				<img src="images/14716243_10208608894083870_2792922115887490404_n.jpg">
 				</p>
 				<p>
 				Graduate of Geography and Envrionmental Studies
@@ -64,65 +59,69 @@
 			</div>
 		</div>
 
-		<div id="skills">
-			<br>
-			</br>
+		<div class="section" id ="skills">
 			<h3>Skills</h3>
-			<div class="skillinfo">
-				<p>
-					<ul>
-						<li class="header">GIS & Data Visualization</li>
-						<li>Cartography & Design</li>
-						<li>ESRI ArcGIS Pro, Desktop, Online, Spatial Analyst, Network Analyst</li>
-						<li>QGIS</li>
-						<li>Leaflet</li>
-						<li>Microsoft Office Suite</li>
+			<div id = "skillsflex">
+				<li>
+					<i class="fas fa-globe-americas"></i>
+					<p id = "skillsheader">Geographic Infromation Systems</p>
+					<p>Cartography & Design</p>
+					<p>ArcGIS Pro & ArcMap</p>
+					<p>Spatial Analysis</p> 
+					<p>Network Analysis</p>
+					<p>QGIS</p>
+					<p>ArcGISOnline (Web AppBuilder)
+					<p>Leaflet</p>
+					<p>Microsoft Office Suite</p>
 
-					</ul>
-					<ul>
-						<li class="header">Programming & Database Management</li>
-						<li>PostgreSQL, SQL</li>
-						<li>GIT</li>
-						<li>Python, ArcPy</li>
-						<li>HTML, CSS, Javascript</li>
-					</ul>
-					<ul>
-						<li class="header">Communication & Project Management</li>
-						<li>Written and Oral Communication</li>
-						<li>Data Documentation</li>
-						<li>Project Organization</li>
-					</ul>
-				</p>
+				</li>
+				<li>
+					<i class="fas fa-code"></i>
+					<p id ="skillsheader">Programming & Databases</p>
+					<p>SQL</p>
+					<p>PostgreSQL (Post-GIS)</p>
+					<p>Python (ArcPy)</p>
+					<p>HTML, CSS, Javascript</p>
+					<p>Version Control Systems (Git, Github)
+				
+				</li>
+				<li>
+					<i class="fas fa-book"></i>
+					<p id ="skillsheader">Communication</p>
+					<p>Written and Oral Communication</p>
+					<p>Data Documentation</p>
+					<p>Office Workflow Solutions</p>
+					<p>Project Management</p>
+				</li>
+	
 			</div>
 
 
 		</div>
 
-		<div id="webmap">
-			<br>
-			</br>
-			<h3>Map Portfolio</h3>
+		<div class = "section" id="experiencemap">
+			<h3>Experience Map</h3>
 			<div id="mapid"></div>
 		</div>
+		
+		<div class = "section" id= "projectgallery">
+			<h3>Project Gallery</h3>
 
-		<div id="contact">
-			<br>
-			</br>
-			<h3 id="contact">Contact</h3>
-			<div class = "contactinfo">
-				<p>
-					<b>
-						<i class="fas fa-mobile-alt"></i>
-						(914) 841 8889
-					</b>
-					<b>
-						<i class="fas fa-envelope-open"></i>
-						brendancullen996@gmail.com
-					</b>
-					<b>
-						<i class="fab fa-linkedin-in"></i>
-					</b>
-				</p>
+		</div>
+		<div class = "section" id="contact">
+			<h3>Contact</h3>
+			<div id="contactflex">
+				<li>
+					<i class="fas fa-mobile-alt"></i>
+					<p>(914) 841 8889</p>
+				</li>
+				<li>
+					<i class="fas fa-envelope-open"></i>
+					<p>brendancullen996@gmail.com</p>
+				</li>
+				<li>
+					<i class="fab fa-linkedin-in"></i>
+				</li>
 			</div>
 
 </body>
