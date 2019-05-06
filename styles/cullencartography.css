@@ -5,11 +5,15 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
+
+html {scroll-behavior: smooth}
+
 .section{
 	width: 85vw;
+	height: 100vh;
 	margin: auto;
 	text-align: center;
-	padding-top: 9%;
+	padding-top: 5%;
 }
 
 #mainpage {
@@ -49,13 +53,14 @@ body {
 	background-color: white;
 	font-weight: bold;
 	list-style-type: none;
+	letter-spacing: 1.5px;
 	
 }
 
 #navbar a{
 	flex: auto;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 0.5em;
 	color: hsl(38, 100%, 60%);
 	text-decoration: none
@@ -71,6 +76,13 @@ body {
 	border-radius: 50%
 }
 
+#about p{
+	width: 70%;
+	margin:auto;
+	font-size: 135%;
+	letter-spacing: 1.5px;
+}
+
 #skillsflex{
 	display: flex;
 	-webkit-flex: 1
@@ -78,16 +90,18 @@ body {
 	flex-grow: 1;
 	justify-content: space-around;
 	list-style-type: none;
+	flex-wrap: wrap
 }
 
 #skillsflex li{
-	width:25%
+	min-width:33%
 }
 
 #skillsheader{
 	font-weight: bold;
-	font-size: 125%;
-	font-style: italic
+	font-size: 135%;
+	font-style: italic;
+	letter-spacing: 1.75px;
 }
 
 #skillsflex i{
@@ -98,7 +112,7 @@ body {
 
 #mapid {
 	height: 75vh;
-	width: 75%;
+	width: 85vw;
 	margin:auto;
 }
 #contactflex{
