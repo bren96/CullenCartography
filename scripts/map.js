@@ -17,7 +17,7 @@ var map_object = L.map('mapid', {closePopupOnClick: false});
 var map_tile_object = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 var resume_markers = []
 var resume_control = L.control();
-var resume_control_title = '<h4>Web-Map Resume</h4>';
+var resume_control_title = '<h4>Map of Professional Experiences</h4>';
 var resume_control_description = '<p>Click on position title for more information</p>';
 
 //functions

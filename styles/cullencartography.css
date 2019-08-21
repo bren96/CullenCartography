@@ -58,6 +58,8 @@ html {scroll-behavior: smooth}
 }
 
 #navbar a{
+	-webkit-transition-duration: 0.8s; /* Safari */
+	transition-duration: 0.8s;
 	flex: auto;
 	text-align: center;
 	font-size: 1.5em;

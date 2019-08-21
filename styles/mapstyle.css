@@ -23,7 +23,7 @@
 }
 
 .resume button {
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.8s; /* Safari */
   transition-duration: 0.8s;
   background-color: hsl(38, 100%, 60%); /* Green */
   color: white;
