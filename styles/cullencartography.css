@@ -10,12 +10,11 @@ body {
 html {scroll-behavior: smooth}
 
 .section{
-	width: 85vw;
+	width: 99vw;
 	height: 100vh;
 	margin: auto;
 	text-align: center;
 	padding-top: 5%;
-	border: 2px solid red;
 }
 
 #mainpage {
@@ -72,17 +71,27 @@ html {scroll-behavior: smooth}
 	color: White;
 }
 
-#about img{
-	border-radius: 70%;
-	width: 50%;
-	display: inline-block;
+#aboutflex{
+	display: flex;
+	-webkit-flex: 1
+	-ms-flex: 1;
+	flex-grow: 1;
+	justify-content: space-evenly;
+	list-style-type: none;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-#about p{
-	width: 50%;
-	font-size: 16px;
+#aboutflex img{
+	border-radius: 50%;
+	width: 40vw;
+}
+
+#aboutflex p{
+	font-size: 2vw;
 	letter-spacing: 1.5px;
-	display: inline-block;
+	width: 40vw;
+	text-align: left;
 }
 
 #skillsflex{
@@ -92,7 +101,7 @@ html {scroll-behavior: smooth}
 	flex-grow: 1;
 	justify-content: space-around;
 	list-style-type: none;
-	flex-wrap: wrap
+	flex-wrap: wrap;
 }
 
 #skillsflex li{
@@ -113,18 +122,25 @@ html {scroll-behavior: smooth}
 
 #contactflex{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin: auto;
+	height: 50vh;
 }
 
 #contactflex li{
-	width: 33%;
 	list-style-type: none;
+	margin: auto;
 }
 
-#contact i{
+#contact a{
+	text-decoration: none;
 	color: hsl(38,100%,60%);
-	font-size: 2em
+	background-color: Transparent;
+	font-size: 5vw;
+	padding: 5%;
 }
+
 
 .content {
 	background-color: white;
