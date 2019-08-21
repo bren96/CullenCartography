@@ -3,18 +3,17 @@
 <html>
 
 <head>
-
-	<link rel="stylesheet" type="text/css" href="styles/cullencartography.css">
-	</link>
-
-	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" rel="stylesheet">
-	</link>
-
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
-	</link>
-
-	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
-
+	<link rel="stylesheet" type="text/css" href="styles/cullencartography.css"></link>
+	<link rel="stylesheet" type="text/css" href="styles/mapstyle.css"/>
+	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" rel="stylesheet"></link>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+	crossorigin=""></script>
+	<script src="scripts/resumeData.js"></script>
 	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 </head>
 
@@ -34,9 +33,7 @@
 			<a href="#contact">Contact</a>
 		</div>
 	</div>
-
 	<div class="content">
-
 		<div class="section" id="about">
 			<h3>About</h3>
 			<div>
@@ -49,7 +46,6 @@
 				</p>
 			</div>
 		</div>
-
 		<div class="section" id="skills">
 			<h3>Skills</h3>
 			<div id="skillsflex">
@@ -61,19 +57,17 @@
 					<p>Spatial Analysis</p>
 					<p>Network Analysis</p>
 					<p>QGIS</p>
-					<p>ArcGISOnline (Web AppBuilder)
-						<p>Leaflet</p>
-
+					<p>ArcGISOnline (Web AppBuilder)</p>
 				</li>
 				<li>
 					<i class="fas fa-code"></i>
 					<p id="skillsheader">Programming & Databases</p>
 					<p>SQL</p>
-					<p>PostgreSQL (Post-GIS)</p>
-					<p>Python (ArcPy)</p>
+					<!--<p>PostgreSQL (Post-GIS)</p>-->
+					<p>Python</p>
 					<p>HTML, CSS, Javascript</p>
-					<p>Version Control Systems (Git, Github)
-
+					<p>Version Control Systems (Git, Github)</p>
+					<p>Leaflet</p>
 				</li>
 				<li>
 					<i class="fas fa-book"></i>
@@ -91,11 +85,9 @@
 					<p>Advanced GIS</p>
 					<p>Methods in Historical GIS</p>
 					<p>Research Experience in Human Geography</p>
-					<P>Programming:Python</p>
 					<p>Spatial Statistics</p>
 					<p>Experimental Cartography</p>
 					<p>Urban & Regional Planning</p>
-					<p>Geographic Thought</p>
 				</li>
 				<li>
 					<i class="fas fa-tree"></i>
@@ -110,13 +102,11 @@
 			</div>
 		</div>
 		<div class="section" id="experiencemap">
-			<h3>Experience Map</h3>
+			<h3>Resume Map</h3>
 			<div id="mapid"></div>
 		</div>
-
 		<div class="section" id="projectgallery">
 			<h3>Project Gallery</h3>
-
 		</div>
 		<div class="section" id="contact">
 			<h3>Contact</h3>
@@ -136,7 +126,8 @@
 
 </body>
 <footer>
-	<script src="../CullenCartography/scripts/cullencartography.js"></script>
+	<script src="scripts/cullencartography.js"></script>
+	<script src="scripts/map.js"></script>
 </footer>
 
 </html>

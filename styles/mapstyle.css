@@ -1,0 +1,44 @@
+#mapid {
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+}
+
+.resume {
+    width: 15vw;
+    height: 70vh;
+    padding: 8px 8px;
+    font: 10px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    color: grey;
+}
+.resume h4 {
+    text-align: center;
+    font-size: 2em;
+    color: #777;
+}
+
+.resume button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.8s;
+  background-color: hsl(38, 100%, 60%); /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.resume button:hover {
+  background-color: white;
+  border: 2px solid hsl(38, 100%, 60%);
+  color: hsl(38, 100%, 60%);
+}
