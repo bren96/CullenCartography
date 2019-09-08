@@ -14,7 +14,8 @@
 
 //variables
 var map_object = L.map('mapid', {closePopupOnClick: false});
-var map_tile_object = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+var map_tile_object = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{foo: 'bar', attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'});
 var resume_markers = []
 var resume_control = L.control();
 var resume_control_title = '<h4>Map of Professional Experiences</h4>';
