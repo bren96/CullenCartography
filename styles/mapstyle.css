@@ -15,6 +15,7 @@
     border-radius: 5px;
     text-align: center;
     color: grey;
+    overflow: scroll;
 }
 .resume h4 {
     text-align: center;
@@ -23,6 +24,8 @@
 }
 
 .resume button {
+  /*display: flex;
+  flex-direction: column;*/
   -webkit-transition-duration: 0.8s; /* Safari */
   transition-duration: 0.8s;
   background-color: hsl(38, 100%, 60%); /* Green */
@@ -31,7 +34,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   width: 100%;
   border-radius: 8px;
   border: 2px solid white;

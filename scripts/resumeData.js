@@ -2,7 +2,7 @@ var resumeData = [{
     "type": "Feature",
     "id": "01",
     "properties": {
-      "position": "GIS Programmer/Analyst",
+      "position": "GIS Programmer & Analyst",
       "employer": "Seneca County Auditor",
       "period": "Jan 19' - Present",
       "responsibilities": "Maintain, further develop, and promote the Geographic Information Data Library of Seneca County. Automate data processing workflows between the Auditor’s office, other County Departments, and outside contractors. Produce Agricultural Use Valuation Reports."
