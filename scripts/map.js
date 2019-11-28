@@ -63,10 +63,10 @@ function main(map, tiles, data, resume, title, description) {
 
 //execute
 var app = main(
-  map_object,
-  map_tile_object,
-  resumeData,
-  resume_control,
-  resume_control_title,
-  resume_control_description
+  map = map_object,
+  tiles = map_tile_object,
+  data = resumeData,
+  resume = resume_control,
+  title = resume_control_title,
+  description = resume_control_description,
 );
