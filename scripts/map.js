@@ -30,7 +30,7 @@ function zoomTo(num) {
 }
 
 function main(map, tiles, data, resume, title, description) {
-  map.setView([41.505, -77], 6);
+  //map.setView([41.505, -77], 6);
   tiles.addTo(map);
   for (x in data) {
     var popup_content =
