@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
 body {
   background-image: url("../images/contours.png");
   background-position: center;
@@ -5,8 +10,10 @@ body {
   color: White;
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  text-align: center;
+  margin: 0;
+
 }
+
 #sidebar {
   height: 100%;
   width: 50px;
@@ -16,12 +23,15 @@ body {
   left: 0;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
   position: fixed;
   background-color: white;
   color: hsl(38, 100%, 60%);
-  /*border-right: solid medium hsl(38, 100%, 60%);*/
 }
+
+#sidebar_button{
+  margin-top: 25px;
+}
+
 #sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -44,7 +54,6 @@ body {
   transition: 0.4s;
 }
 
-
 .change #bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
@@ -57,20 +66,33 @@ body {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-
-#content {
+.content {
   margin-left: 50px;
-}
-.section {
-  /*background-color: hsl(38, 100%, 70%);*/
-  min-height: 100vh;
-  padding: 20px;
-  max-width: 75%;
-  margin: auto;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
+.content section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  position: relative;
+  color: #818181;
+  font-size: 18px;
+}
+#section_header{
+  color: hsl(38, 100%, 60%);
+  font-size: 58px;
+  padding: 10px;
+  text-align: left;
+  background-color: white;
+  text-decoration: underline;
+  margin: 0;
+
+}
 #title_page {
-  font-size: 42px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,4 +104,46 @@ body {
   background-color: white;
   margin: auto;
   width: 50%;
+  text-align: center;
+}
+
+#title_page_text_header{
+  font-size: 84px;
+  letter-spacing: 2px;
+}
+#title_page_text_subheader{
+  font-size: 42px;
+  letter-spacing: 4px;
+}
+
+#skill_lists {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  /* background-color: white; */
+}
+
+#skill_lists li {
+  text-align: center;
+  width: 300px;
+  /* border: 5px solid hsl(38, 100%, 60%); */
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  color: #818181;
+  font-size: 18px;
+}
+
+#skill_lists i {
+  color: hsl(38, 100%, 60%);
+  font-size: 36px;
+}
+
+#skillsheader {
+  font-size: 24px;
+  color: hsl(38, 100%, 60%);
 }
