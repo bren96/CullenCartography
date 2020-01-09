@@ -9,6 +9,12 @@ function openNav() {
     "<a href='#project_gallery'>Project Gallery</a>" +
     "<a href='#contact'>Contact</a>"
     );
+  document.getElementById("sidebar").style.borderRight = "3px solid #26147B";
+  document.getElementById("sidebar").style.borderBottom = "3px solid #26147B";
+  document.getElementById("sidebar").style.backgroundColor = "white";
+  document.getElementById("sidebar").style.height = "100vh";
+
+
   document.getElementById("sidebar_button").onclick = closeNav;
   document.getElementById("sidebar_button").classList.toggle("change");
 
@@ -18,6 +24,9 @@ function openNav() {
 function closeNav() {
   document.getElementById("sidebar").style.width = "50px";
   document.getElementById("sidebar_nav").innerHTML = "";
+  document.getElementById("sidebar").style.border = "";
+  document.getElementById("sidebar").style.backgroundColor = "hsla(0, 0%, 100%, 0)";
+  document.getElementById("sidebar").style.height = "";
   document.getElementById("sidebar_button").onclick = openNav;
   document.getElementById("sidebar_button").classList.toggle("change");
 
@@ -25,9 +34,9 @@ function closeNav() {
 
 /*sidebar button hover color change effect*/
 function sidebar_button_over() {
-  document.getElementById("bar1").style.backgroundColor = "hsl(38, 100%, 60%)";
-  document.getElementById("bar2").style.backgroundColor = "hsl(38, 100%, 60%)";
-  document.getElementById("bar3").style.backgroundColor = "hsl(38, 100%, 60%)";
+  document.getElementById("bar1").style.backgroundColor = "#26147B";
+  document.getElementById("bar2").style.backgroundColor = "#26147B";
+  document.getElementById("bar3").style.backgroundColor = "#26147B";
 
 }
 function sidebar_button_out() {
