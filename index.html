@@ -3,33 +3,24 @@
 <html>
 
 <head>
-
 	<link rel="stylesheet" type="text/css" href="styles/cullencartography.css"></link>
-
 	<link rel="stylesheet" type="text/css" href="styles/mapstyle.css"/>
-
 	<script src="https://kit.fontawesome.com/d686df2664.js" crossorigin="anonymous"></script>
-
 	<link rel="stylesheet" href="leaflet/leaflet.css"/>
-
 	<!--link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
 	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 	crossorigin=""/-->
-
 	<!-- Make sure you put this AFTER Leaflet's CSS -->
 	<script src="leaflet/leaflet.js"></script>
-
 	<!--script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
 	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
 	crossorigin=""></script-->
-
 	<script src="scripts/resumeData.js"></script>
 	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 </head>
 
 <body>
 	<div id="mainpage">
-
 		<div id="headingbox">
 			<h1>Brendan Cullen</h1>
 			<h4>GIS Specialist - Cartographer</h4>
@@ -39,7 +30,7 @@
 			<a href="#about">About</a>
 			<a href="#skills">Skills</a>
 			<a href="#experiencemap">Experience Map</a>
-			<!--<a href="#projectgallery">Project Gallery</a>-->
+			<a href="#projectgallery">Project Gallery</a>
 			<a href="#contact">Contact</a>
 		</div>
 	</div>
@@ -107,16 +98,45 @@
 					<p>Weather & Climate </p>
 					<p>Geology of Climate Change</p>
 					<p>Geological Environment</p>
+				</li>
 			</div>
 		</div>
 		<div class="section" id="experiencemap">
 			<h3>Experience Map</h3>
 			<div id="mapid"></div>
 		</div>
-		<!--<div class="section" id="projectgallery">
+		<div class="section" id="projectgallery">
 			<h3>Project Gallery</h3>
-			<p>Under Construction</p>
-		</div>-->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			 <!-- Full-width images with number and caption text -->
+			 <div class="mySlides fade">
+				 <div id="projectgalleryflex">
+					 <img src="images/EMS_Districts.png">
+					 <div class="map-info">
+						<div class="map-title">
+							EMS Districts of Seneca County, Ohio  2019 | 24x36 in.
+						</div>
+				 		<div class="map-descrp">
+					 		Reference map displaying updated EMS Districts of Seneca County,
+					 		Ohio. Produced for the Seneca County Emergency Management
+					 		Association. Created using ArcGIS Pro.
+				 		</div>
+					 </div>
+			 	 </div>
+			 </div>
+			 <div class="mySlides fade">
+				 <img src="img2.jpg">
+				 <div class="text">Caption Two</div>
+			 </div>
+			 <div class="mySlides fade">
+				 <img src="images/Goshen_Town_PEVCS-1.png">
+				 <div class="text">Caption Three</div>
+			 </div>
+			</div>
 		<div class="section" id="contact">
 			<h3>Contact</h3>
 			<div id="contactflex">
@@ -129,6 +149,8 @@
 				<li>
 					<a class="fab fa-github" href="https://github.com/bren96"></a>
 			</div>
+		</div>
+	</div>
 </body>
 <footer>
 	<script src="scripts/cullencartography.js"></script>

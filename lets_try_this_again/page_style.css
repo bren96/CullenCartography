@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/contours.png");
+  background-position: center;
+  height: 100%;
+  color: White;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+#sidebar {
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  position: fixed;
+  background-color: white;
+  color: hsl(38, 100%, 60%);
+  /*border-right: solid medium hsl(38, 100%, 60%);*/
+}
+#sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#sidebar a:hover{
+  color:hsl(38, 100%, 60%);
+}
+
+#bar1, #bar2, #bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #818181;
+  margin: 6px 0;
+  margin-left: 7.5px;
+  transition: 0.4s;
+}
+
+
+.change #bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change #bar2 {opacity: 0;}
+
+.change #bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+#content {
+  margin-left: 50px;
+}
+.section {
+  /*background-color: hsl(38, 100%, 70%);*/
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 75%;
+  margin: auto;
+}
+
+#title_page {
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title_page_text {
+  border: 5px solid hsl(38, 100%, 60%);
+  color: hsl(38, 100%, 70%);
+  background-color: white;
+  margin: auto;
+  width: 50%;
+}

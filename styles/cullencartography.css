@@ -169,3 +169,73 @@ h3 {
 	text-decoration: underline;
 
 }
+
+#projectgalleryflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#projectgallery img {
+	width:auto;
+	max-height:70vh;
+	margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.map-info {
+	width:20%;
+}
+
+.map-title {
+  color: black;
+  font-size: 18px;
+  padding: 8px 12px;
+  bottom: 8px;
+  text-align: Left;
+}
+.map-descrp {
+  color: grey;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  text-align: left;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
