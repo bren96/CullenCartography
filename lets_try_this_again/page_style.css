@@ -26,10 +26,9 @@ body {
   color: #b17410;
 }
 #sidebar_button{
-  border: 3px solid #017359;
   padding: 5px;
   padding-left: 2.5px;
-  background-color: white;
+  /* background-color: white; */
 }
 #sidebar a {
   padding: 8px 8px 8px 32px;
@@ -40,12 +39,12 @@ body {
   transition: 0.3s;
 }
 #sidebar a:hover{
-  color:#26147B;
+  color:#017359;
 }
 #bar1, #bar2, #bar3 {
   width: 35px;
   height: 5px;
-  background-color: #818181;
+  background-color: #017359;
   margin: 6px 0;
   margin-left: 7.5px;
   transition: 0.4s;
@@ -62,10 +61,11 @@ body {
 
 /* Content */
 .content {
-  margin-left: 50px;
+  margin: auto;
   position: relative;
   left: 0;
   top: 0;
+  text-align: center;
 }
 .content section {
   scroll-snap-align: start;
@@ -80,11 +80,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #017359;
   font-size: 58px;
-  text-align: left;
-  background-color:hsla(0, 0%, 100%, 0.99);
+  background-color: hsla(0, 0%, 100%, 1);
   text-decoration: underline;
-  margin: 0;
-  word-break: normal;
+  margin: auto;
+  padding: 5px;
+  word-wrap: normal;
 }
 
 /* Title Page */
@@ -114,6 +114,36 @@ body {
   letter-spacing: 4px;
 }
 
+/* About Page */
+#about_flex {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+#about_flex img{
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px;
+  margin-top: 0px;
+}
+#about_flex p{
+  flex-basis: 250px;
+  scroll-snap-align: start;
+  border: 3px solid #017359;
+  font-size: 1.5em;
+  background-color: white;
+  min-width: 40%;
+  max-width: 70%;
+  margin: 10px;
+  padding: 10px;
+}
+
 /* Skills Page */
 #skill_lists {
   list-style: none;
@@ -121,7 +151,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: space-around;
+  align-content: space-evenly;
   min-height: 100vh;
 }
 #skill_lists li {
@@ -132,10 +162,10 @@ body {
   background-color: white;
   color: #818181;
   font-size: 1em;
-  margin: 10px;
+  margin: 15px;
   width: 250px;
-  height: 350px;
-  box-shadow: 10px 10px #017359;
+  min-height: 350px;
+  /* box-shadow: 10px 10px #017359; */
 }
 #skill_lists i {
   color: #017359;
@@ -147,4 +177,26 @@ body {
   color: #017359;
   margin: auto;
   /* text-decoration: underline; */
+}
+
+/* Contact Page */
+#contact_flex{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin: auto;
+	min-height: 90vh;
+}
+
+#contact_flex li{
+	list-style-type: none;
+	margin: auto;
+}
+
+#contact a{
+	text-decoration: none;
+	color: #017359;
+	background-color: White;
+	font-size: 4em;
+	padding: 10px;
 }
