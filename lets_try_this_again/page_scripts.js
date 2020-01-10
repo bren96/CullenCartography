@@ -9,15 +9,10 @@ function openNav() {
     "<a href='#project_gallery'>Project Gallery</a>" +
     "<a href='#contact'>Contact</a>"
     );
-  // document.getElementById("sidebar").style.borderRight = "3px solid #26147B";
-  // document.getElementById("sidebar").style.borderBottom = "3px solid #26147B";
   document.getElementById("sidebar").style.backgroundColor = "white";
   document.getElementById("sidebar").style.height = "100vh";
-
-
   document.getElementById("sidebar_button").onclick = closeNav;
   document.getElementById("sidebar_button").classList.toggle("change");
-
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
@@ -29,7 +24,6 @@ function closeNav() {
   document.getElementById("sidebar").style.height = "";
   document.getElementById("sidebar_button").onclick = openNav;
   document.getElementById("sidebar_button").classList.toggle("change");
-
 }
 
 /*sidebar button hover color change effect*/
@@ -37,8 +31,8 @@ function sidebar_button_out() {
   document.getElementById("bar1").style.backgroundColor = "#017359";
   document.getElementById("bar2").style.backgroundColor = "#017359";
   document.getElementById("bar3").style.backgroundColor = "#017359";
-
 }
+
 function sidebar_button_over() {
   document.getElementById("bar1").style.backgroundColor = "#26147B";
   document.getElementById("bar2").style.backgroundColor = "#26147B";
