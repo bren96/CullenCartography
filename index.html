@@ -1,160 +1,217 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cullen Cartography - Custom Maps </title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mouse.css" rel="stylesheet" />
 
-<html>
-
-<head>
-	<link rel="stylesheet" type="text/css" href="styles/cullencartography.css"></link>
-	<link rel="stylesheet" type="text/css" href="styles/mapstyle.css"/>
-	<script src="https://kit.fontawesome.com/d686df2664.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="leaflet/leaflet.css"/>
-	<!--link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-	crossorigin=""/-->
-	<!-- Make sure you put this AFTER Leaflet's CSS -->
-	<script src="leaflet/leaflet.js"></script>
-	<!--script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-	crossorigin=""></script-->
-	<script src="scripts/resumeData.js"></script>
-	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
-</head>
-
-<body>
-	<div id="mainpage">
-		<div id="headingbox">
-			<h1>Brendan Cullen</h1>
-			<h4>GIS Specialist - Cartographer</h4>
-		</div>
-		<div id="navbar">
-			<a class="fas fa-home" href="#mainpage"></a>
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#experiencemap">Experience Map</a>
-			<a href="#projectgallery">Project Gallery</a>
-			<a href="#contact">Contact</a>
-		</div>
-	</div>
-	<div class="content">
-		<div class="section" id="about">
-			<h3>About</h3>
-			<div id="aboutflex">
-				<img src="images/14716243_10208608894083870_2792922115887490404_n.jpg">
-				<p>
-				B.A. in Geography and a Minor in Envrionmental Studies from SUNY Geneseo.
-				Broad research and professional background in Geographic Information Systems, Cartography, and Sustainability.
-				Avid interest in cartography and digital mapping technology.
-				</p>
-			</div>
-		</div>
-		<div class="section" id="skills">
-			<h3>Skills</h3>
-			<div id="skillsflex">
-				<li>
-					<i class="fas fa-layer-group"></i>
-					<p id="skillsheader">Geographic Infromation Systems</p>
-					<p>Cartography & Design</p>
-					<p>ArcGIS Pro & ArcMap</p>
-					<p>ArcGIS Online WebApp Builder</p>
-					<p>ArcGIS Online Operation Dashboard</p>
-					<p>Spatial Analysis</p>
-					<p>Network Analysis</p>
-				</li>
-				<li>
-					<i class="fas fa-code"></i>
-					<p id="skillsheader">Programming & Databases</p>
-					<p>SQL</p>
-					<!--<p>PostgreSQL (Post-GIS)</p>-->
-					<p>Python</p>
-					<p>HTML, CSS</p>
-					<p>Javascript (Leaflet Library)</p>
-					<p>Version Control Systems (Git, Github)</p>
-				</li>
-				<li>
-					<i class="fas fa-book"></i>
-					<p id="skillsheader">Communication</p>
-					<p>Microsoft Office Suite</p>
-					<p>Written and Oral Communication</p>
-					<p>Data Documentation</p>
-					<p>Office Workflow Solutions</p>
-					<p>Project Management</p>
-				</li>
-				<li>
-					<i class="fas fa-globe-americas"></i>
-					<p id="skillsheader">Geography Coursework</p>
-					<p>(Experimental Class) Adv.GIS</p>
-					<p>Advanced GIS</p>
-					<p>Methods in Historical GIS</p>
-					<p>Research Experience in Human Geography</p>
-					<p>Spatial Statistics</p>
-					<p>Experimental Cartography</p>
-					<p>Urban & Regional Planning</p>
-				</li>
-				<li>
-					<i class="fas fa-tree"></i>
-					<p id="skillsheader">Environmental Studies Coursework</p>
-					<p>Conservation & Resource Management</p>
-					<p>Environmental Sociology</p>
-					<p>Environmental Issues</p>
-					<p>Weather & Climate </p>
-					<p>Geology of Climate Change</p>
-					<p>Geological Environment</p>
-				</li>
-			</div>
-		</div>
-		<div class="section" id="experiencemap">
-			<h3>Experience Map</h3>
-			<div id="mapid"></div>
-		</div>
-		<div class="section" id="projectgallery">
-			<h3>Project Gallery</h3>
-				<div style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-				</div>
-			 <!-- Full-width images with number and caption text -->
-			 <div class="mySlides fade">
-				 <div id="projectgalleryflex">
-					 <img src="images/EMS_Districts.png">
-					 <div class="map-info">
-						<div class="map-title">
-							EMS Districts of Seneca County, Ohio  2019 | 24x36 in.
-						</div>
-				 		<div class="map-descrp">
-					 		Reference map displaying updated EMS Districts of Seneca County,
-					 		Ohio. Produced for the Seneca County Emergency Management
-					 		Association. Created using ArcGIS Pro.
-				 		</div>
-					 </div>
-			 	 </div>
-			 </div>
-			 <div class="mySlides fade">
-				 <img src="img2.jpg">
-				 <div class="text">Caption Two</div>
-			 </div>
-			 <div class="mySlides fade">
-				 <img src="images/Goshen_Town_PEVCS-1.png">
-				 <div class="text">Caption Three</div>
-			 </div>
-			</div>
-		<div class="section" id="contact">
-			<h3>Contact</h3>
-			<div id="contactflex">
-				<li>
-					<a class="far fa-envelope-open" href="mailto:brendancullen996@gmail.com"></a>
-				</li>
-				<li>
-					<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/brendan-cullen-b7699615b/"></a>
-				</li>
-				<li>
-					<a class="fab fa-github" href="https://github.com/bren96"></a>
-			</div>
-		</div>
-	</div>
-</body>
-<footer>
-	<script src="scripts/cullencartography.js"></script>
-	<script src="scripts/map.js"></script>
-</footer>
-
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Cullen Cartography</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-dark font-weight-bold">Brendan Cullen</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-dark-75 font-weight-light mb-5">GIS Specialist - Cartographer</p>
+                        <a class="js-scroll-trigger" href="#portfolio">
+                          <div class="moving-mouse-holder">
+                            <div class="mouse">
+                              <div class="mouse-button">&nbsp;</div>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Portfolio section-->
+        <!--
+        Portfoli Items:
+        1) Seneca County Trails Map
+        2) EMS Districts Map
+        3) Lake District Map
+        4) CHQ-Food System WebMap
+        5) PJ Historical Sites
+        6) Goshen PEVCS
+      -->
+        <section id="portfolio">
+          <div class="container-fluid p-0">
+            <div class="row no-gutters">
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/EMS_Districts.png">
+                  <img class="img-fluid" src="assets/img/portfolio/thumbnails/EMS_Districts_thumbnail.png" alt="" style="object-position: 2px"/>
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">Cartography</div>
+                    <div class="project-name">EMS Districts of Seneca County, Ohio</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/Map4_PJ_Historical_Sites-1.jpg">
+                  <img class="img-fluid" src="assets/img/portfolio/thumbnails/PJ_Historical_Sites_thmb.png" alt=""/>
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">Cartography</div>
+                    <div class="project-name"> Port Jervis Historical Sites Walking Loop</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
+                ><img class="img-fluid" src="assets/img/portfolio/thumbnails/Map2 -Chestnut_Abundance_&_Residuals_thmb.png" alt="" />
+                <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">GIS Analysis</div>
+                  <div class="project-name">Species Abundance Analysis</div>
+                </div></a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
+                  <img class="img-fluid" src="assets/img/portfolio/thumbnails/Map1_StudyArea_thmb.png" alt=""/>
+                  <div class="portfolio-box-caption">
+                    <div class="project-category text-white-50">Cartography</div>
+                    <div class="project-name">Area of Study, Western New York</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg"
+                ><img class="img-fluid" src="assets/img/portfolio/thumbnails/Map3_Agricultural Soils 2018-1.jpg" alt="" />
+                <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">GIS Analysis</div>
+                  <div class="project-name">Agricultural Soil Report</div>
+                </div></a
+                >
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg"
+                ><img class="img-fluid" src="assets/img/portfolio/thumbnails/Goshen_Town_PEVCS-1.jpg" alt="" />
+                <div class="portfolio-box-caption p-3">
+                  <div class="project-category text-white-50">GIS Analysis</div>
+                  <div class="project-name">Electric Vehicle Suitability Analysis</div>
+                </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Services section-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <h2 class="text-center mt-0">At Your Service</h2>
+                <hr class="divider my-4" />
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-layer-group text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">GIS Analysis</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-map-marked-alt text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Cartography</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Web Mapping</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section-->
+        <section id="about" class="page-section bg-dark text-white">
+          <div class="container">
+              <h2 class="text-center mt-0">About Me</h2>
+              <hr class="divider my-4" />
+              <div class="row align-items-center justify-content-center text-center">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="mt-5">
+                        <h4>People have always been inspired by maps. I aim for my work to do the same.</h4>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                      <img class="img-fluid" style="border-radius: 150px;" src="assets/img/IMG_1465_pp.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="mt-5">
+                        <p>
+                          Since earning my B.A. in Geography/ Environmental Studes,
+                          I have worked for various organizations providing GIS and cartographic services.
+                        </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- Contact section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider my-4" />
+                        <p class="text-muted mb-5">
+                          Ready to start your next project with me? Give me a call or send me an email and I will get back to you as soon as possible!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                        <a class="d-block" href="tel:19148418889">+1 (914) 841-8889</a>
+                    </div>
+                    <div class="col-lg-4 mr-auto text-center">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                        <a class="d-block" href="mailto:brendancullen996@gmail.com">brendancullen996@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
