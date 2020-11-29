@@ -10,6 +10,6 @@ tags:
 ---
 This application was produced by the Seneca County Auditor's Office to assist with the development and management of Community Reinvestment Areas (CRAs) across the county. This is an ongoing project beginning with the areas in Tiffin, OH and moving outward. Layout designed using ArcGIS Online Operations Dashboard.
 
-Link: https://arcg.is/GjCmr0
+Link: [https://arcg.is/GjCmr0](https://arcg.is/GjCmr0)
 
 What I Learned: ArcGIS Online Operations Dashboard, Feature and Service Layer sharing, ArcGIS Online Web Maps, List Panel actions, Details Panel actions, Map Panel controls.
