@@ -1,0 +1,82 @@
+# Site/SEO settings
+email: brendancullen996@gmail.com
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+google_analytics: 
+
+name: Brendan Cullen
+title: Cullen Cartography
+description: >
+   I am a geospatial professional bridging geography, planning, and programming. I have always loved maps, technology, and uniquness of place.
+url: 
+twitter_username: cullen_carto
+default_img: /assets/images/ProfilePicture.jpg
+social:
+  - name: twitter
+    url: https://twitter.com/cullen_carto
+  - name: linkedin
+    url: https://www.linkedin.com/in/brendan-cullen-b7699615b/
+  - name: github
+    url: https://github.com/bren96
+
+# Contact settings
+contact_img: /assets/images/usgs-IHdQVLwEIdk-unsplash.jpg
+formcarry: https://formcarry.com/s/HkIo0nMb7
+
+# Disqus settings
+disqus: test-apkdzgmqhj
+
+# MailChimp settings
+mailchimp_action: 
+mailchimp_input: 
+
+# Author settings
+author:
+  - name: Brendan Cullen
+    bio: Since earning my Bachelors of Arts in Geography / Environmental Studies, I have worked in various roles providing GIS and cartographic services. I have produced both professional and academic quality cartographic products featured in official reports and published papers. I am currently a Planning Technician at the Chautauqua County Department of Planning & Development.
+    url: 
+
+# Pagination settings
+pagination:
+  enabled: true
+  debug: false
+  per_page: 12
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'Cullen Cartography'
+    permalink: '/tag/:tag'
+    slugify:
+      mode: raw
+      cased: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - node_modules
+  - .DS_Store
+  - barber.jpg
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - README.md
+  - vendor
