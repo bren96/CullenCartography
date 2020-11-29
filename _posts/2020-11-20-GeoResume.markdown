@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/geoResume.png
 author: Brendan Cullen
 tags:
-  - Web-GIS
+  - Web Mapping
   - Web Development
 ---
 Personal project built using Leaflet.js, Mapbox, and standard web development languages. The web map displays my professional experiences and allows the user to interact with my resume. Designed “Mobile First” and uses responsive css.

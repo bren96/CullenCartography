@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/chqFoodSystemMap.png
 author: Brendan Cullen
 tags:
-  - Web-GIS
+  - Web Mapping
   - Web Development
 ---
 Produced for the Chautauqua County Food Policy Council through the Chautauqua County Division of Planning & Community Development. The application is used to identify, promote, and connect food system assets within the Chautauqua region. Built using HTML, CSS, Javascript, Leaflet and ArcGIS API

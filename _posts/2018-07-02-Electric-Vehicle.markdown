@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/Goshen_Town_PEVCS-1.png
 author: Brendan Cullen
 tags:
-  - GIS Analysis
+  - Geospatial Analysis
   - Cartography
 ---
 

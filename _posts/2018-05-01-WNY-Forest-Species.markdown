@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/Map2 -Chestnut_Abundance_&_Residuals.jpg
 author: Brendan Cullen
 tags:
-  - GIS Analysis
+  - Geospatial Analysis
   - Cartography
 ---
 

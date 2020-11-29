@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/Map3_Agricultural Soils 2018-1.png
 author: Brendan Cullen
 tags:
-  - GIS Analysis
+  - Geospatial Analysis
   - Cartography
 ---
 

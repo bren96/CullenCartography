@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/PivotPointFieldReview.png
 author: Brendan Cullen
 tags:
-  - Web-GIS
+  - Web Mapping
 ---
  Mapping application developed for integration with the Pivot Point Field Mobile App (3rd Party Vendor). The Auditor’s Office uses the application for tracking and managing building and destruction permits, managing parcels under review by the board of revision, and reviewing agricultural productivity for the CAUV (Current Agricultural-Use Valuation) Ohio Tax Program. Designed using the ArcGIS Online WebApp Builder.
 

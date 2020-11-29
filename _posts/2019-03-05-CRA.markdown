@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/craViewer.png
 author: Brendan Cullen
 tags:
-  - Web-GIS
+  - Web Mapping
 ---
 This application was produced by the Seneca County Auditor's Office to assist with the development and management of Community Reinvestment Areas (CRAs) across the county. This is an ongoing project beginning with the areas in Tiffin, OH and moving outward. Layout designed using ArcGIS Online Operations Dashboard.
 

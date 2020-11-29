@@ -6,7 +6,7 @@ description:
 image: /assets/images/Portfolio/snowmobileTrailSystem.png
 author: Brendan Cullen
 tags:
-  - GIS Analysis
+  - Geospatial Analysis
   - Cartography
 ---
 
