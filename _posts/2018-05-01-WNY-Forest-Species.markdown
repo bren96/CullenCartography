@@ -10,4 +10,4 @@ tags:
   - Cartography
 ---
 
-Produced for Dr. Stephen Tulowiecki’s forest modeling research at SUNY Geneseo, Analysis of Forest Composition Models in Chautauqua and Cattaraugus Counties, New York 2018. The map compares the model results and actual forest composition for one of the species analyzed. Created using ArcMap.
+Produced for Dr. Stephen Tulowiecki’s forest modeling research at SUNY Geneseo, **Analysis of Forest Composition Models in Chautauqua and Cattaraugus Counties, New York**. The map compares the model results and actual forest composition for one of the species analyzed. Created using ArcMap.
