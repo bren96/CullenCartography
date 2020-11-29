@@ -6,7 +6,6 @@ description:
 image: /assets/images/Portfolio/chautauquaLakeNY.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Forrest Nature Preserve – Seneca County, Ohio"
-date: 2020-11-13
+date: 2019-03-01
 description: 
 image: /assets/images/Portfolio/ForrestNP-1.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 

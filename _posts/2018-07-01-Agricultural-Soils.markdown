@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Agricultural Soils Report"
-date: 2020-11-10
+date: 2018-07-01
 description: 
 image: /assets/images/Portfolio/Map3_Agricultural Soils 2018-1.png
 author: Brendan Cullen
 tags:
-  - GIS
+  - GIS Analysis
   - Cartography
 ---
 

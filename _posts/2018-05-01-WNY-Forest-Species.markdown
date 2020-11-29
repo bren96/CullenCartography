@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "WNY Forest Species Modeling"
-date: 2020-11-08
+date: 2018-05-01
 description: 
 image: /assets/images/Portfolio/Map2 -Chestnut_Abundance_&_Residuals.jpg
 author: Brendan Cullen
 tags:
-  - GIS
+  - GIS Analysis
   - Cartography
 ---
 

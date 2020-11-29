@@ -6,7 +6,6 @@ description:
 image: /assets/images/Portfolio/chautauquaLakeDistrict.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 

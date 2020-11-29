@@ -7,6 +7,10 @@ image: /assets/images/Portfolio/chqFoodSystemMap.png
 author: Brendan Cullen
 tags:
   - Web-GIS
+  - Web Development
 ---
+Produced for the Chautauqua County Food Policy Council through the Chautauqua County Division of Planning & Community Development. The application is used to identify, promote, and connect food system assets within the Chautauqua region. Built using HTML, CSS, Javascript, Leaflet and ArcGIS API
 
-Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven’t heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.
+Link: https://ccdpcd.github.io/CHQ-Food-System/
+
+What I Learned: Leaflet, GeoCoding, Custom Pop-ups, Custom Markers, ArcGIS API, GeoJSON, HTML, CSS, Javascript.

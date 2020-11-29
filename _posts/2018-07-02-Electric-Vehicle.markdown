@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Electric Vehicle Charging Station Suitability Analysis"
-date: 2020-11-11
+date: 2018-07-02
 description: 
 image: /assets/images/Portfolio/Goshen_Town_PEVCS-1.png
 author: Brendan Cullen
 tags:
-  - GIS
+  - GIS Analysis
   - Cartography
 ---
 

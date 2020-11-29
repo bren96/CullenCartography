@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "WNY Area of Research"
-date: 2020-11-09
+date: 2018-05-02
 description: 
 image: /assets/images/Portfolio/Map1_StudyArea.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 

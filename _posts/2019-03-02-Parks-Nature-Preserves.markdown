@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Parks & Nature Preserves: Seneca County, Ohio"
-date: 2020-11-15
+date: 2019-03-02
 description: 
 image: /assets/images/Portfolio/SenecaCounty.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 

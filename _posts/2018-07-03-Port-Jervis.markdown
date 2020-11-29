@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Port Jervis Historical Sites Walking Loop"
-date: 2020-11-12
+date: 2018-07-03
 description: 
 image: /assets/images/Portfolio/Map4_PJ_Historical_Sites-1.png
 author: Brendan Cullen
 tags:
-  - GIS
   - Cartography
 ---
 
