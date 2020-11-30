@@ -14,3 +14,5 @@ This application was produced by the Seneca County Auditor's Office to assist wi
 Link: [https://arcg.is/GjCmr0](https://arcg.is/GjCmr0)
 
 What I Learned: ArcGIS Online Operations Dashboard, Feature and Service Layer sharing, ArcGIS Online Web Maps, List Panel actions, Details Panel actions, Map Panel controls.
+
+![](/assets/images/Portfolio/craViewer.png)

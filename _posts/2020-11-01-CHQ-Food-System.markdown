@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CHQ Food System Web-Map"
-date: 2020-11-16
+date: 2020-11-01
 description: 
 image: /assets/images/Portfolio/chqFoodSystemMap.png
 author: Brendan Cullen
@@ -15,3 +15,5 @@ Produced for the Chautauqua County Food Policy Council through the Chautauqua Co
 Link: [https://ccdpcd.github.io/CHQ-Food-System/](https://ccdpcd.github.io/CHQ-Food-System/)
 
 What I Learned: Leaflet, GeoCoding, Custom Pop-ups, Custom Markers, ArcGIS API, GeoJSON, HTML, CSS, Javascript.
+
+![](/assets/images/Portfolio/chqFoodSystemMap.png)

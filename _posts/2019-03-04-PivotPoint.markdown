@@ -13,3 +13,5 @@ tags:
 Link: [https://arcg.is/1ei01e](https://arcg.is/1ei01e)
 
 What I Learned: 3rd Party app integration, ArcGIS Online WebApp Builder, Custom Raster and Vector Tile Basemaps, Layer Visibility by Scale.
+
+![](/assets/images/Portfolio/PivotPointFieldReview.png)

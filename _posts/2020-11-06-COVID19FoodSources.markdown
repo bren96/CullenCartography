@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "COVID-19 Food Sources"
-date: 2020-11-21
+date: 2020-11-06
 description:
 image: /assets/images/Portfolio/covid19FoodSources.png
 author: Brendan Cullen
@@ -14,3 +14,5 @@ tags:
 Link: [https://arcg.is/1XLOKb](https://arcg.is/1XLOKb)
 
 What I Learned: ArcGIS Online Web Apps, Web Feature Services, HTML Popups, ArcGIS Widget Configuration.
+
+![](/assets/images/Portfolio/covid19FoodSources.png)

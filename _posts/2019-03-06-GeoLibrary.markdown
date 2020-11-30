@@ -13,3 +13,5 @@ The Seneca County GeoLibrary serves as a central catalog of GIS data and maps ma
 Link: [https://portal-senecacountygis.hub.arcgis.com/](https://portal-senecacountygis.hub.arcgis.com/)
 
 What I Learned: ArcGIS Hub, ArcGIS Online Data Management, HTML, CSS.
+
+![](/assets/images/Portfolio/geoLibrary.png)

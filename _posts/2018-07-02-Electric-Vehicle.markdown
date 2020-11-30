@@ -12,3 +12,5 @@ tags:
 ---
 
 Suitability Analysis of Potential Electric Vehicle Charging Stations. Series of 6 maps created for various municipalities within Orange County. Produced for the Orange County Transportation Council. Analysis was performed using ArcMap, ModelBuilder, and Python.
+
+![](/assets/images/Portfolio/Goshen_Town_PEVCS-1.png)
