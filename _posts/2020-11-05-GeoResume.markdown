@@ -8,6 +8,8 @@ author: Brendan Cullen
 tags:
   - Web Mapping
   - Web Development
+  - Leaflet
+  - Mapbox
 ---
 Personal project built using Leaflet.js and Mapbox. The web map displays my professional experiences and allows the user to interact with my resume. Designed “Mobile First” and uses responsive css.
 

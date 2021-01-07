@@ -8,6 +8,7 @@ author: Brendan Cullen
 tags:
   - Web Mapping
   - Planning
+  - ArcGIS WebApp Builder
 ---
 This application was developed by Chautauqua County to review resources relating to current and proposed solar development. The following types of data layers are available to review: Agricultural Resources, Ecological Resources, Recreational/Historical Resources, Infrastructure, and Reference Layers. Built using ArcGIS Online Web App Builder.
 
