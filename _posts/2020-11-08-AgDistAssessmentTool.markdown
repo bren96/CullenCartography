@@ -9,6 +9,7 @@ tags:
   - Web Mapping
   - Planning
   - ArcGIS API for Javascript
+  - Web Development
 ---
 This tool was developed using the ArcGIS API for Javascript to gain comments from the public regarding the current boundaries of Chautauqua County's Agricultural Districts. Comments provided will be reviewed by planning staff at the Chautauqua County Department of Planning & Development to determine modifications to the district boundaries. This is a prototype, and is not live.
 

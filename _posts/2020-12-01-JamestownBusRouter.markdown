@@ -9,6 +9,7 @@ tags:
   - Web Mapping
   - Planning
   - Leaflet
+  - Web Development
 ---
 For my Open Web Mapping final project, I developed a bus route trip planner for my local city, Jamestown, NY. This tool could be a benefit to the many people in Jamestown that currently use the bus system, as well as to those looking for additional transit options. The goal was to develop a web-map similar to Google Maps, in that the user selects the start and end location, and the application calculates and displays the shortest route. Rather than using all roads in the network, my application would use just the routes connecting the bus stations. Because of this, I had to develop my own spatial network that took into account the direction of the bus routes and routes that overlap (sometimes in different directions). To make things simpler, rather than using speed/time as the cost to calculate the shortest path, I used the distance of the route.
 
