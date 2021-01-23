@@ -6,9 +6,8 @@ description:
 image: /assets/images/GallerySize/solarDevMapper.png
 author: Brendan Cullen
 tags:
-  - WebDevelopment
-  - DataScience
-  - Cartography
+  - Web Development
+  - Data Science
 ---
 ![](/assets/images/OriginalSize/solarDevMapper.png)
 

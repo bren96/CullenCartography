@@ -6,7 +6,7 @@ description:
 image: /assets/images/GallerySize/Map3_Agricultural_Soils_2018.png
 author: Brendan Cullen
 tags:
-  - DataScience
+  - Data Science
   - Cartography
 ---
 ![](/assets/images/OriginalSize/Map3_Agricultural_Soils_2018.png)

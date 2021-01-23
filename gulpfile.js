@@ -5,7 +5,7 @@ const buffer = require('vinyl-buffer');
 const cleanCSS = require('gulp-clean-css');
 const eslint = require('gulp-eslint');
 const rename = require('gulp-rename');
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const source = require('vinyl-source-stream');
 const stylelint = require('gulp-stylelint');
 const uglify = require('gulp-uglify');
@@ -70,12 +70,13 @@ function dist() {
     .pipe(gulp.dest('../'))
 }
 
-function watch() {
-  gulp.watch('./_assets/scss/**/*.scss', styles);
-  gulp.watch('./_assets/js/**/*.js', scripts);
-}
+// function watch() {
+//   gulp.watch('./_assets/scss/**/*.scss', styles);
+//   gulp.watch('./_assets/js/**/*.js', scripts);
+// }
 
-const build = gulp.series(styles, scripts, watch);
+// const build = gulp.series(styles, scripts, watch);
+const build = gulp.series(styles, scripts);
 gulp.task('default', build);
 
 exports.lintStyles = lintStyles;

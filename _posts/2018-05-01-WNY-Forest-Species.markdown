@@ -6,7 +6,7 @@ description:
 image: /assets/images/GallerySize/Map2_Chestnut_Abundance_&_Residuals.jpg
 author: Brendan Cullen
 tags:
-  - DataScience
+  - Data Science
   - Cartography
 ---
 

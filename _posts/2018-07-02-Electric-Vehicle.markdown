@@ -6,7 +6,7 @@ description:
 image: /assets/images/GallerySize/Goshen_Town_PEVCS.png
 author: Brendan Cullen
 tags:
-  - DataScience
+  - Data Science
   - Cartography
 ---
 ![](/assets/images/OriginalSize/Goshen_Town_PEVCS.png)

@@ -6,7 +6,7 @@ description:
 image: /assets/images/GallerySize/geoLibrary.png
 author: Brendan Cullen
 tags:
-  - WebDevelopment
+  - Web Development
 ---
 ![](/assets/images/OriginalSize/geoLibrary.png)
 

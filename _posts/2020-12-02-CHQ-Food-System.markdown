@@ -6,8 +6,7 @@ description:
 image: /assets/images/GallerySize/chqFoodSystemMap.png
 author: Brendan Cullen
 tags:
-  - WebDevelopment
-  - Cartography
+  - Web Development
 ---
 ![](/assets/images/OriginalSize/chqFoodSystemMap.png)
 

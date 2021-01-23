@@ -6,9 +6,8 @@ description:
 image: /assets/images/GallerySize/covid19FoodSources.png
 author: Brendan Cullen
 tags:
-  - WebDevelopment
-  - Cartography
-  - DataScience
+  - Web Development
+  - Data Science
 ---
 ![](/assets/images/OriginalSize/covid19FoodSources.png)
 

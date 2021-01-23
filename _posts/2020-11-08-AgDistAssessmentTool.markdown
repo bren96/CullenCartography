@@ -6,9 +6,8 @@ description:
 image: /assets/images/GallerySize/ag_dist_assessment_tool.png
 author: Brendan Cullen
 tags:
-  - WebDevelopment
-  - Cartography
-  - DataScience
+  - Web Development
+  - Data Science
 ---
 ![](/assets/images/OriginalSize/ag_dist_assessment_tool.png)
 
