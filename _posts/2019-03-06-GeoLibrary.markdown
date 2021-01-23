@@ -8,10 +8,10 @@ author: Brendan Cullen
 tags:
   - WebDevelopment
 ---
+![](/assets/images/OriginalSize/geoLibrary.png)
+
 The Seneca County GeoLibrary serves as a central catalog of GIS data and maps maintained by Seneca County, Ohio. All information in the GeoLibrary is available for the public to download and explore. Developed using ArcGIS Hub.
 
 Link: [https://portal-senecacountygis.hub.arcgis.com/](https://portal-senecacountygis.hub.arcgis.com/)
 
 What I Learned: ArcGIS Hub, ArcGIS Online Data Management, HTML, CSS.
-
-![](/assets/images/OriginalSize/geoLibrary.png)

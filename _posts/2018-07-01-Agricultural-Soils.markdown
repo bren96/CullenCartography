@@ -9,8 +9,7 @@ tags:
   - DataScience
   - Cartography
 ---
+![](/assets/images/OriginalSize/Map3_Agricultural_Soils_2018.png)
 
 Orange County Agricultural Soils Map produced for an Orange County Agricultural
 Report. Map created using ArcMap.
-
-![](/assets/images/OriginalSize/Map3_Agricultural_Soils_2018.png)

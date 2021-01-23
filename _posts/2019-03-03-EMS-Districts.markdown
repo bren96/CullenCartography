@@ -8,7 +8,6 @@ author: Brendan Cullen
 tags:
   - Cartography
 ---
+![](/assets/images/OriginalSize/EMS_Districts.png)
 
 Reference map displaying updated EMS Districts of Seneca County, Ohio. Produced for the Seneca County Emergency Management Association. Created using ArcGIS Pro.
-
-![](/assets/images/OriginalSize/EMS_Districts.png)

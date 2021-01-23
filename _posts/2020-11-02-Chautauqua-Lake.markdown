@@ -8,7 +8,6 @@ author: Brendan Cullen
 tags:
   - Cartography
 ---
+![](/assets/images/OriginalSize/chautauquaLakeNY.png)
 
 Personal Project. Map depicts the communities and land cover of Chautauqua Lake, NY. Made using QGIS.
-
-![](/assets/images/OriginalSize/chautauquaLakeNY.png)

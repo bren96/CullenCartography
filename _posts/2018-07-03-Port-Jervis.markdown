@@ -8,7 +8,6 @@ author: Brendan Cullen
 tags:
   - Cartography
 ---
+![](/assets/images/OriginalSize/Map4_PJ_Historical_Sites.png)
 
 Produced for the Orange County Planning Department in coordination with the Port Jervis Historical Society. Historical sites dataset created using GPS points collected in the field. Map created using ArcMap Network Analyst Extension.
-
-![](/assets/images/OriginalSize/Map4_PJ_Historical_Sites.png)
