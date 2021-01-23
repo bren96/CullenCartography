@@ -7,7 +7,7 @@ google_analytics:
 name: Brendan Cullen
 title: Cullen Cartography
 description: >
-   I am a geospatial professional bridging geography, planning, and programming. I have always loved maps, technology, and uniquness of place.
+   I am a geospatial professional who regularly utilizes GIS, Python, and Javascript to manage, analyze, and visualize data. I have always loved maps, technology, and uniquness of place.
 url: 
 twitter_username: cullen_carto
 default_img: /assets/images/ProfilePicture.jpg
@@ -33,7 +33,7 @@ mailchimp_input:
 # Author settings
 author:
   - name: Brendan Cullen
-    bio: Since earning my Bachelors of Arts in Geography / Environmental Studies, I have worked in various roles providing GIS and cartographic services. I have produced both professional and academic quality cartographic products featured in official reports and published papers. I am currently a Planning Technician at the Chautauqua County Department of Planning & Development.
+    bio: I am a geospatial professional who regularly utilizes GIS, Python, and Javascript to manage, analyze, and visualize data. I have always loved maps, technology, and uniquness of place.
 
 # Pagination settings
 pagination:
