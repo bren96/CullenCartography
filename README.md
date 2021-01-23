@@ -1,3 +1,5 @@
+[Fork of Barbar-Jeckyll Theme](https://github.com/samesies/barber-jekyll)
+
 ### Installation
 Jekyll requires all dependencies to be saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) on your command line after downloading or cloning the theme. You can then run ````bundle exec jekyll serve```` or ````npm start```` to see your development site. Run ````bundle exec jekyll build```` or ````npm run build```` to build a production ready site for deployment.
 
