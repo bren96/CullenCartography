@@ -6,7 +6,29 @@ pagination:
 <!-- The main content area -->
 <div class="posts">
   <div class="grid-xlarge">
+    <div class="">
+      <h2 style="text-align: center;">My Work</h2>
+      <br>
+      <div class="grid" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+        <ul class="header__list">
+          <li>
+            <a href="/tag/DataScience">Data Science</a>
+          </li>
+          <li>
+            <a href="/tag/WebDevelopment">Web Development</a>
+          </li>
+          <li>
+            <a href="/tag/Cartography">Cartography</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="sep--black">
+
+
     <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+
 
       {% for post in paginator.posts %}
 

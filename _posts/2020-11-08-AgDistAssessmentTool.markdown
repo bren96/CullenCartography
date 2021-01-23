@@ -3,13 +3,12 @@ layout: post
 title: "Agricultural District Assessment Tool"
 date: 2020-11-29
 description:
-image: /assets/images/Portfolio/ag_dist_assessment_tool.png
+image: /assets/images/GallerySize/ag_dist_assessment_tool.png
 author: Brendan Cullen
 tags:
-  - Web Mapping
-  - Planning
-  - ArcGIS API for Javascript
-  - Web Development
+  - WebDevelopment
+  - Cartography
+  - DataScience
 ---
 This tool was developed using the ArcGIS API for Javascript to gain comments from the public regarding the current boundaries of Chautauqua County's Agricultural Districts. Comments provided will be reviewed by planning staff at the Chautauqua County Department of Planning & Development to determine modifications to the district boundaries. This is a prototype, and is not live.
 
@@ -19,4 +18,4 @@ Link: [https://bren96.github.io/Ag_Dist_Assessment_Tool/](https://bren96.github.
 
 What I Learned: ArcGIS API for Javascript, Dojo Javascript Framework, Citizen GIS, Tile Package Creation, Parallel GeoProcessing.
 
-![](/assets/images/Portfolio/ag_dist_assessment_tool.png)
+![](/assets/images/OriginalSize/ag_dist_assessment_tool.png)

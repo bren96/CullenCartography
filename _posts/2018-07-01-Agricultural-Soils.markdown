@@ -3,15 +3,14 @@ layout: post
 title: "Agricultural Soils Report"
 date: 2018-07-01
 description: 
-image: /assets/images/Portfolio/Map3_Agricultural Soils 2018-1.png
+image: /assets/images/GallerySize/Map3_Agricultural_Soils_2018.png
 author: Brendan Cullen
 tags:
-  - Geospatial Analysis
+  - DataScience
   - Cartography
-  - Planning
 ---
 
 Orange County Agricultural Soils Map produced for an Orange County Agricultural
 Report. Map created using ArcMap.
 
-![](/assets/images/Portfolio/Map3_Agricultural Soils 2018-1.png)
+![](/assets/images/OriginalSize/Map3_Agricultural_Soils_2018.png)

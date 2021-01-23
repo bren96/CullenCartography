@@ -3,11 +3,11 @@ layout: post
 title: "Community Reinvestment Areas Map & Record Viewer"
 date: 2019-03-05
 description:
-image: /assets/images/Portfolio/craViewer.png
+image: /assets/images/GallerySize/craViewer.png
 author: Brendan Cullen
 tags:
-  - Web Mapping
-  - Planning
+  - WebDevelopment
+  - Cartography
 ---
 This application was produced by the Seneca County Auditor's Office to assist with the development and management of Community Reinvestment Areas (CRAs) across the county. This is an ongoing project beginning with the areas in Tiffin, OH and moving outward. Layout designed using ArcGIS Online Operations Dashboard.
 
@@ -15,4 +15,4 @@ Link: [https://arcg.is/GjCmr0](https://arcg.is/GjCmr0)
 
 What I Learned: ArcGIS Online Operations Dashboard, Feature and Service Layer sharing, ArcGIS Online Web Maps, List Panel actions, Details Panel actions, Map Panel controls.
 
-![](/assets/images/Portfolio/craViewer.png)
+![](/assets/images/OriginalSize/craViewer.png)
