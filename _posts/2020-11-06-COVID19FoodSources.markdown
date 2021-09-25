@@ -7,7 +7,7 @@ image: /assets/images/GallerySize/covid19FoodSources.png
 author: Brendan Cullen
 tags:
   - Web Development
-  - Data Science
+  - Data Visualization
 ---
 ![](/assets/images/OriginalSize/covid19FoodSources.png)
 

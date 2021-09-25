@@ -6,7 +6,7 @@ description:
 image: /assets/images/GallerySize/snowmobileTrailSystem.png
 author: Brendan Cullen
 tags:
-  - Data Science
+  - Data Visualization
   - Cartography
 ---
 ![](/assets/images/OriginalSize/snowmobileTrailSystem.png)
