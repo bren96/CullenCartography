@@ -56,7 +56,8 @@
 
       a {
         color: $color-black;
-        text-decoration: underline;
+        border-bottom: 2px solid $color-grey;
+        box-shadow: inset 0 -3px 0 $color-grey;
       }
     }
   }
