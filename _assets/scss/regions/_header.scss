@@ -56,6 +56,30 @@
 
       a {
         color: $color-black;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__nav {
+    @extend %no-list-style;
+
+    display: flex;
+    align-items: center;
+
+    & > * {
+      @extend .header__title;
+
+      &:not(:last-child) {
+        margin-right: 1em;
+
+        @media (min-width: $mq-small) {
+          margin-right: 2em;
+        }
+      }
+
+      a {
+        color: $color-black;
       }
     }
   }
