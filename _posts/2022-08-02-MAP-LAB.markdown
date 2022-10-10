@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Introducing MAP-LAB"
+date: 2022-08-02
+description: 
+image: \assets\images\GallerySize\map-lab-logo.jpg
+author: Brendan Cullen
+tags:
+  - Web Development
+  - Cartography
+  - Data Visualization
+---
+![](\assets\images\GallerySize\map-lab-logo.jpg)
+
+I've spent my whole career in the GIS industry, from GIS Technician to Analyst to Specialist and now as a Software Engineer. I believe remote work and the new hybrid office environment have created major challenges for organizations to effectively communicate using maps and share valuable insight from their existing GIS platforms. After using amazing collaboration tools like Figma, Miro, and Visual Studio Live Share, I have been obsessed with bringing this level of collaboration to maps.
+
+MAP-LAB is a suite of collaborative mapping tools, built to help organizations work with geospatial data in real-time. Our mission is to empower teams to collaborate using maps and GIS technology to solve complex problems.
+
+[Sign Up!](https://map-lab.app/)
+
+[Learn More](https://www.linkedin.com/pulse/map-lab-create-edit-share-maps-your-team-real-time-map-lab-us/?trackingId=FNl9WhOoObaljUHrFveK1w%3D%3D)
